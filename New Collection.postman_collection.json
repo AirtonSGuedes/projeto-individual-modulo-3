@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "7237e81d-4790-4060-958e-0d30b377a2c2",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24685247"
+	},
+	"item": [
+		{
+			"name": "projeto individual airton",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Quartos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Quartos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pj airton",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"andar\": 2,\r\n        \"numero\": 502\r\n    \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Quartos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Quartos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pj",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"andar\": 2,\r\n  \"numero\": 1004,\r\n  \"id\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Quartos/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Quartos",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pj",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Quartos/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Quartos",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
